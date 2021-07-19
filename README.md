@@ -16,6 +16,14 @@
 * create a new user object from the formData by using the makeUser function and passing in the form submit data.
 - Import makeUser function from make-user.js file
 * console log to make sure the for submit data has been updated with new user object state
+* Write that user object to localstorage using the saveUser function imported from getNset.js file
+* redirect user to Map html browser
 
-
+## Loop through quest data to render href links for all quests available
+* In HTML:
+1. H1 with map message
+1. Create script file linking to map.js
+1. Link styles
+1. Create Div to hold JS rendered quest output when looping
+* console log quests 
 

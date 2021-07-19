@@ -1,11 +1,15 @@
 import { makeUser } from './make-user.js';
+import { saveUser } from '../data/getNset.js';
+
 const userFormSubmit = document.getElementById('user-input');
 
 userFormSubmit.addEventListener('submit', e => {
     e.preventDefault();
     const formData = new FormData(userFormSubmit);
-    console.log(formData);
     const newUser = makeUser(formData);
-    console.log(newUser);
+
+    saveUser(newUser);
+
+    window.location.replace('./map');
 });
 

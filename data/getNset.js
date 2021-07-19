@@ -5,9 +5,7 @@ export function getUser(){
     return JSON.parse(userString);
 }
 
-export function setUser(userObject){
-    // stringify the userObject
+export function saveUser(userObject){
     const userString = JSON.stringify(userObject);
-    // set in local storage
     localStorage.setItem(USER, userString);
 }
