@@ -19,11 +19,17 @@
 * Write that user object to localstorage using the saveUser function imported from getNset.js file
 * redirect user to Map html browser
 
-## Loop through quest data to render href links for all quests available
+## Load list of quests or tasks and display/ Loop through quest data to render href links for all quests available
 * In HTML:
 1. H1 with map message
 1. Create script file linking to map.js
 1. Link styles
 1. Create Div to hold JS rendered quest output when looping
 * console log quests 
-
+* In JavaScript:
+1. Grab Div Id
+1. Loop through Quests data
+1. Make a variable to hold Quest Href and assign it with template literal directing into quest folder with that specific quest ID.
+1. Create Quest folder and add HTML page
+1. Create anchor element variable and assign each with href source and title of each quest when looping
+1. Append link(s) to page
