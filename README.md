@@ -1,4 +1,4 @@
-## Making a plan
+## Getting started
 * Create data.js page with each quest 
 * Create index HTML page with basic wireframe structure
 * Create Heading message
@@ -44,3 +44,13 @@
 1. Nested Label and radio input to generate specific choices
 * Create a variable to find Id value using the new urlSearchParams class by passing in the search bar.
 * console log test
+* Grab all DOM elements
+* Create findById function to get quest data specific to window
+- console.log to make sure Id was read
+* Loop thru choices 
+* createElement label and radio input with name, type and value equal to the id
+* createElement span tag set to description
+* append span and radio options to label
+* append options to label which creates all the labels required
+
+### Spruce up story line and add images
