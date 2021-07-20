@@ -5,7 +5,6 @@ const questDiv = document.getElementById('quest-div');
 for (let quest of quests) {
 
     const hrefForQuest = `../quest/?questId=${quest.id}`;
-    console.log(hrefForQuest);
 
     const questLink = document.createElement('a');
     questLink.href = hrefForQuest;

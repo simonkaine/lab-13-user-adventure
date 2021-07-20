@@ -33,3 +33,14 @@
 1. Create Quest folder and add HTML page
 1. Create anchor element variable and assign each with href source and title of each quest when looping
 1. Append link(s) to page
+
+## Quest or task page reads the query parameter and loads that item on the page, including text, images, and/or audio/video - plus creates question prompts and inputs in form
+* Create HTML page that has the follwing hard coded elements with id's to hold passing data from data files
+1. Div for quest title
+1. img for quest image
+1. p tag for the description
+1. Create form to hold choices list
+1. span tag to have choices options
+1. Nested Label and radio input to generate specific choices
+* Create a variable to find Id value using the new urlSearchParams class by passing in the search bar.
+* console log test
