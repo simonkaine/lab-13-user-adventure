@@ -1,5 +1,6 @@
 import { findById } from '../data/getNset.js';
 import quests from '../data/data.js';
+import { getUser, saveUser } from '../data/getNset.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 
@@ -35,5 +36,13 @@ const questForm = document.getElementById('choice-form');
 questForm.addEventListener('submit', (e)=>{
     e.preventDefault();
     const choiceForm = new FormData(questForm);
-    console.log(choiceForm.get('choice'));
+    const choiceValueFromChoiceId = choiceForm.get('choice');
+    const foundIdValue = findById(mainQuest.choices, choiceValueFromChoiceId);
+
+    const player = getUser();
+
+    player.gold += foundIdValue.gold;
+    player.hp += foundIdValue.hp;
+    player.completed[mainQuest.id] = true;
+    saveUser(player);
 });

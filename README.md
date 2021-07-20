@@ -25,6 +25,7 @@
 1. Create script file linking to map.js
 1. Link styles
 1. Create Div to hold JS rendered quest output when looping
+
 * console log quests 
 * In JavaScript:
 1. Grab Div Id
@@ -42,6 +43,7 @@
 1. Create form to hold choices list
 1. span tag to have choices options
 1. Nested Label and radio input to generate specific choices
+
 * Create a variable to find Id value using the new urlSearchParams class by passing in the search bar.
 * console log test
 * Grab all DOM elements
@@ -56,3 +58,14 @@
 ## User information tracked and results displayed accordingly
 * Grab the Form id and add event listener and prevent default
 * Compile form data using new FormData - console log each option on submit to verify ID was read
+* Get the chosen choice from the choices array inside data
+1. Get the choice id value, now we have the ID
+1. FindById passing in array of choices and choice id value from above
+
+* Update the user information 
+1. Use getUser function
+1. Assign players hp and gold from quest and track to player hp and gold
+1. Set mission result to completed
+1. Save the results in local storage
+
+
