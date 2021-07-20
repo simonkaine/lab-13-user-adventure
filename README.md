@@ -68,4 +68,6 @@
 1. Set mission result to completed
 1. Save the results in local storage
 
-
+* Update the UI/UX
+1. Assign result outcome to the description tags text content
+1. When Button is clicked disable form from view and remove hidden link back to map

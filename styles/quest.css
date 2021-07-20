@@ -30,3 +30,7 @@ button {
     margin-left: 600px;
 }
 
+  
+.hidden {
+    display: none;
+}

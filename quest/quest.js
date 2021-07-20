@@ -45,4 +45,9 @@ questForm.addEventListener('submit', (e)=>{
     player.hp += foundIdValue.hp;
     player.completed[mainQuest.id] = true;
     saveUser(player);
+
+    const backToMap = document.getElementById('back-to-map');
+    descriptionOnQuest.textContent = foundIdValue.result;
+    questForm.classList.add('hidden');
+    backToMap.classList.remove('hidden');
 });
