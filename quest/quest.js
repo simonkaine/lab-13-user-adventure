@@ -29,3 +29,11 @@ for (let choice of mainQuest.choices){
     
     choices.append(label);
 }
+
+const questForm = document.getElementById('choice-form');
+
+questForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const choiceForm = new FormData(questForm);
+    console.log(choiceForm.get('choice'));
+});

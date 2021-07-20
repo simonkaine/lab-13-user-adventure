@@ -53,4 +53,6 @@
 * append span and radio options to label
 * append options to label which creates all the labels required
 
-### Spruce up story line and add images
+## User information tracked and results displayed accordingly
+* Grab the Form id and add event listener and prevent default
+* Compile form data using new FormData - console log each option on submit to verify ID was read

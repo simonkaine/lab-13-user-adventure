@@ -7,7 +7,7 @@ const arachnids = {
     },
     image: 'attacked.jpg',
     description: `
-        The alien space bugs decide to advance on your base. What are your orders?
+        The alien space bugs decide to land on your planet and send everything they got. What are your orders?
     `,
     choices: [{
         id: 'nuke',
@@ -18,7 +18,7 @@ const arachnids = {
         hp: -30,
         gold: 0
     }, {
-        id: 'fight',
+        id: 'run',
         description: 'Run away!',
         result: `
             You now live to fight another day.
@@ -26,7 +26,7 @@ const arachnids = {
         hp: 0,
         gold: 0
     }, {
-        id: 'Fight back!',
+        id: 'fight',
         description: 'Attack them with everything you got! Except nukes..',
         result: `
             You have won the battle and rewarded the alien loot!
