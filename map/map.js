@@ -7,6 +7,11 @@ const player = getUser();
 
 trackUser();
 
+if (player.hp <= 25) {
+    //redirct to results page
+    window.location.replace('../results/index.html');
+}
+
 for (let quest of quests) {
     if (player.completed[quest.id]){
         overwriteAndCreateSpan(quest);
