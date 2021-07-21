@@ -71,3 +71,12 @@
 * Update the UI/UX
 1. Assign result outcome to the description tags text content
 1. When Button is clicked disable form from view and remove hidden link back to map
+
+## Change quests links into non-clickable text 
+* Since we clicked the button and the quest is now true when we return to map the link should diasble yet read completed.
+
+1. Create for loop cycling through Quests with conditional functions
+1. One function, if true, will overwrite and set new span element to say quest completed
+1. The else condition is a function that's purpose is to create the quest link for us.
+
+<!-- ## Redirect to end page if win or lose conditions met -->
