@@ -1,8 +1,11 @@
 import quests from '../data/data.js';
 import { getUser } from '../data/getNset.js';
+import { trackUser } from '../user/user.js';
 
 const questDiv = document.getElementById('quest-div');
 const player = getUser();
+
+trackUser();
 
 for (let quest of quests) {
     if (player.completed[quest.id]){
@@ -19,7 +22,7 @@ function overwriteAndCreateSpan(quest){
 }
 
 function questLinkCreated(quest){
-
+    // const questDiv = document.getElementById('quest-div');
     const hrefForQuest = `../quest/?questId=${quest.id}`;
     const questLink = document.createElement('a');
 

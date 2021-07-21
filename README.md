@@ -76,7 +76,11 @@
 * Since we clicked the button and the quest is now true when we return to map the link should diasble yet read completed.
 
 1. Create for loop cycling through Quests with conditional functions
-1. One function, if true, will overwrite and set new span element to say quest completed
+1. One function, if true, will overwrite and set new span element to say quest completed.
 1. The else condition is a function that's purpose is to create the quest link for us.
 
-<!-- ## Redirect to end page if win or lose conditions met -->
+## Update user object/ Track user
+
+* Update User object by hard coding HTML to hold user info
+1. Create function to take current HP, GOLD and Name, update it and write to Quest and Map page
+

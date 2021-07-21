@@ -1,3 +1,4 @@
+import { trackUser } from '../user/user.js';
 import { findById } from '../data/getNset.js';
 import quests from '../data/data.js';
 import { getUser, saveUser } from '../data/getNset.js';
@@ -51,3 +52,5 @@ questForm.addEventListener('submit', (e)=>{
     questForm.classList.add('hidden');
     backToMap.classList.remove('hidden');
 });
+
+trackUser();
