@@ -83,4 +83,6 @@
 
 * Update User object by hard coding HTML to hold user info
 1. Create function to take current HP, GOLD and Name, update it and write to Quest and Map page
+1. Redirect player to results page if dead or all quests completed
+1. Show results
 

@@ -5,3 +5,28 @@
 /* input[type="radio"] {
     display: none;
 } */
+
+h1 {
+    margin-left: 400px;
+}
+
+h3 {
+    margin-left: 300px;
+}
+
+img {
+    width: 50px;
+}
+
+form {
+    display: flex;
+    padding: 100px;
+    margin-left: 100px;
+}
+
+#user-input button {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 40px;
+}
+

@@ -15,7 +15,7 @@ const arachnids = {
         result: `
             You have nuked yourself in the process. Whoopsie! 
         `,
-        hp: -30,
+        hp: -50,
         gold: 0
     }, {
         id: 'run',
@@ -59,7 +59,7 @@ const sneak = {
             of your squad! Now you are stuck on the planet until 
             the next transport ship can come but you live to fight another day.
         `,
-        hp: -45,
+        hp: -50,
         gold: 50
     }, {
         id: 'fight',
@@ -91,7 +91,6 @@ const boss = {
         top: '31%',
         left: '5%'
     },
-    prerequisites: ['arachnids', 'sneak'],
     image: 'bigBug.jpg',
     description: `
         The final boss bugs emerges and you need to make a quick move in order to save humanity, 
@@ -112,7 +111,7 @@ const boss = {
     }, {
         id: 'mercy',
         description: 'Have mercy and let it go..',
-        result: 'WHOOPS. Bad move. Now they have time to rebuild and then they blow up your planet!',
+        result: 'WHOOPS. Bad move. Now they have time to rebuild and then they decide to blow up your planet!',
         hp: -100,
         gold: 0
     }]
