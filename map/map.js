@@ -8,7 +8,7 @@ const player = getUser();
 
 trackUser();
 
-if (player.hp <= 0 || completedAllMissions(player)) {
+if (player.health <= 0 || completedAllMissions(player)) {
     window.location.replace('../results/index.html');
 }
 

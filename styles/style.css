@@ -1,5 +1,5 @@
 
-body {
+/* body { */
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
@@ -22,7 +22,7 @@ body {
     background-color: var(--color2);
 } */
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
-}
+} */
 
 /* header {
     display: flex;
@@ -53,7 +53,7 @@ section {
     box-shadow: var(--shadow);
 } */
 
-footer {
+/* footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
@@ -78,11 +78,11 @@ h2 {
     height: var(--header-height);
 } */
 
-p {
+/* p {
     margin: var(--gutter);
-}
+} */
   
-footer {
+/* footer {
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -110,4 +110,4 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
+  }  */

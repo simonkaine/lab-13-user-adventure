@@ -18,6 +18,11 @@ img {
     width: 50px;
 }
 
+#hero {
+    background-image: url();
+    width: 500px;
+}
+
 form {
     display: flex;
     padding: 100px;

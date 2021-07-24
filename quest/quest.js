@@ -43,7 +43,7 @@ questForm.addEventListener('submit', (e)=>{
     const player = getUser();
 
     player.gold += foundIdValue.gold;
-    player.hp += foundIdValue.hp;
+    player.health += foundIdValue.health;
     player.completed[mainQuest.id] = true;
     saveUser(player);
 

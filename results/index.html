@@ -8,18 +8,30 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/map.css">
     <link rel="stylesheet" href="../styles/trackUser.css">
+    <link rel="stylesheet" href="../styles/results.css">
     <title>Results</title>
 </head>
 <body>
     <h1>Let's see your results!</h1>
     <main>
         <div class="finished-profile">
-            <span>Player:</span>
             <span id="player-name"></span>
-            <span>hp:</span>
+            <span>Character:</span>
+            <span id="avatar" name="avatar"></span>
+            <span>Health:</span>
             <span id="hp"></span>
             <span>gold:</span>
             <span id="gold"></span>
+        </div>
+
+        <div>
+            <img src="" alt="Final outcome" id="outcome">
+        </div>
+
+        <div id="lose"></div>
+        <div id="win"></div>
+        <div>
+            <button id="btn">Play again!</button>
         </div>
     </main>
     <script src="./results.js" type="module"></script>

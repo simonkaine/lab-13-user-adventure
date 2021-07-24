@@ -15,7 +15,7 @@ const arachnids = {
         result: `
             You have nuked yourself in the process. Whoopsie! 
         `,
-        hp: -50,
+        health: -50,
         gold: 0
     }, {
         id: 'run',
@@ -23,7 +23,7 @@ const arachnids = {
         result: `
             You now live to fight another day.
         `,
-        hp: 0,
+        health: 0,
         gold: 0
     }, {
         id: 'fight',
@@ -31,7 +31,7 @@ const arachnids = {
         result: `
             You have won the battle and rewarded the alien loot!
         `,
-        hp: 50,
+        health: 50,
         gold: 50
     }]
 };
@@ -59,7 +59,7 @@ const sneak = {
             of your squad! Now you are stuck on the planet until 
             the next transport ship can come but you live to fight another day.
         `,
-        hp: -50,
+        health: -50,
         gold: 50
     }, {
         id: 'fight',
@@ -68,7 +68,7 @@ const sneak = {
             You fight until all your ammo is gone and most of your soldiers have
             perished. You are wounded but have succeeded in taking the nest!
         `,
-        hp: -15,
+        health: -15,
         gold: 100
     }, {
         id: 'air support',
@@ -79,7 +79,7 @@ const sneak = {
             with the human race. You have won the battle but now you have stirred
             up an even bigger war!
         `,
-        hp: 0,
+        health: 0,
         gold: 0
     }]
 };
@@ -100,19 +100,19 @@ const boss = {
         id: 'kill',
         description: 'Squash the bug!',
         result: 'You have won! But you fear there may be more out there.. Somewhere. Waiting for the right moment to strike again.',
-        hp: 0,
+        health: 0,
         gold: 1
     }, {
         id: 'capture',
         description: 'Take it prisoner',
         result: 'You study and learn from this bug and in turn you are able to protect humanity from future annihilation.',
-        hp: 50,
+        health: 50,
         gold: 100
     }, {
         id: 'mercy',
         description: 'Have mercy and let it go..',
         result: 'WHOOPS. Bad move. Now they have time to rebuild and then they decide to blow up your planet!',
-        hp: -100,
+        health: -100,
         gold: 0
     }]
 };

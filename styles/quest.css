@@ -9,6 +9,12 @@ img {
     margin-left: 23%;
 }
 
+#avatar {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
 section #quest-title {
     margin: 0 0 30px 230px;
     font-size: 3em;
@@ -33,4 +39,8 @@ button {
   
 .hidden {
     display: none;
+}
+
+header {
+    margin-top: 133px;
 }
